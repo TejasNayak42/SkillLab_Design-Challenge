@@ -13,7 +13,7 @@
 .signup-container {
   width: 400px;
   height: 550px;
-  background-image: url('C:\Users\tejas\Desktop\MyProjects\SkillLab_Design-Challenge\food_bug\public\Assets\LoginBg.jpg'); 
+  background-image: url('/public/Assets/LoginBg.jpg'); 
   background-size: cover;
   border: 3px solid #ccc;
   border-radius: 10px;
