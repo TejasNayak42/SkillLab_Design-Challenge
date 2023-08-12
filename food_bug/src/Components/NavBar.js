@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import "../CSS/NavBar.css";
+import "../CSS/Global.css";
 
 export default function NavBar() {
   return (
@@ -37,7 +37,7 @@ export default function NavBar() {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto custom-center">
-              <li className="nav-item" style={{ marginRight: "30px" }}>
+              <li className="nav-item" style={{ paddingRight: "4px" }}>
                 <a
                   className="nav-link active text-white"
                   aria-current="page"
@@ -47,7 +47,12 @@ export default function NavBar() {
                 </a>
               </li>
 
-              <li className="nav-item dropdown" style={{ marginRight: "25px" }}>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/Menu">
+                  Menu
+                </a>
+              </li>
+              <li className="nav-item dropdown" style={{ paddingRight: "4px" }}>
                 <a
                   className="nav-link dropdown-toggle text-white"
                   href="/"
@@ -55,12 +60,12 @@ export default function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Menu
+                  Contact Us
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/Menu">
-                      Chinese
+                    <a className="dropdown-item" href="/Contact">
+                      Address
                     </a>
                   </li>
                   <li>
@@ -68,17 +73,12 @@ export default function NavBar() {
                   </li>
                   <li>
                     <a className="dropdown-item" href="/">
-                      North Indian
+                      Contact Information
                     </a>
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="/Contact">
-                  Contact Us
-                </a>
-              </li>
-              <li style={{ marginLeft: "1.5rem" }}>
+              <li style={{ marginLeft: "0.25rem" }}>
                 <button
                   type="button"
                   className="btn btn-success"
