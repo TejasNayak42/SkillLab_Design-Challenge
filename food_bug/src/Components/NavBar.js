@@ -60,19 +60,19 @@ export default function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Contact Us
+                  About 
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/Contact">
-                      Address
+                    <a className="dropdown-item" href="/About">
+                      About us
                     </a>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="/About">
                       Contact Information
                     </a>
                   </li>
