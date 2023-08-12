@@ -41,8 +41,7 @@ export default function Login() {
           <div className="d-grid">
             <button className="btn btn-danger">Login</button>
           </div>
-          <div className="text-center my-3 or-line">
-            or
+          
             <div className="row">
               <div className="col-12 ">
                 <div
@@ -77,7 +76,7 @@ export default function Login() {
                 </div>
               </div>
             </div>
-          </div>
+          
         </form>
       </div>
     </div>
