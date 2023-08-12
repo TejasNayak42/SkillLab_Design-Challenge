@@ -65,7 +65,7 @@ export default function SignUp() {
             <button className="btn btn-danger">Login</button>
           </div>
           <div className="text-center my-3 or-line">
-            <span className="line"></span> or <span className="line"></span>
+            or 
             <div className="row">
               <div className="col-3 ">
                 <div
