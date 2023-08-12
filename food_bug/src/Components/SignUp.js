@@ -65,7 +65,7 @@ export default function SignUp() {
             <button className="btn btn-danger">Login</button>
           </div>
           
-            <div className="row">
+            <div className="row mt-2">
               <div className="col-3 ">
                 <div
                   className="bg-light p-1 text-center"

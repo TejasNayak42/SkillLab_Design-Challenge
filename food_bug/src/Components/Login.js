@@ -42,7 +42,7 @@ export default function Login() {
             <button className="btn btn-danger">Login</button>
           </div>
           
-            <div className="row">
+            <div className="row mt-2">
               <div className="col-12 ">
                 <div
                   className=" p-3 text-center"
